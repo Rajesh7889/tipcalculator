@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip calculator</title>
+     <link rel="stylesheet" type="text/css" href='/tipcalculator/style.css'>
+</head>
+<body>
+    <div id="conatinor">
+        <div id="properties">
+            <h2 id="heading" class="property">Tip calculator</h2>
+            
+            <div class='property'>
+                <span class="txt">Amount:</span><br>
+                <input type="text" id="amount" onkeyup="get()" placeholder="Enter amount"></div>
+            <div class='property'>
+                <span class="txt">Tip-percent:</span><span id='tipprcnt'> 0%</span><br>
+                <input type="range" id='range' min="0" max="100" value="0" onchange="get()"></div>
+            <div class='property'>
+                <span class="txt">Tip-amount:</span><br>
+                <input type="text"  id="tipamnt" placeholder="tip amount" disabled ></div>
+            <div class='property'>
+                <span class="txt">Total-amount:</span><br>
+                <input type="text" id="totalamnt" placeholder="total amount" disabled></div>
+        </div>
+    </div>
+    <script src="/tipcalculator/script..js"></script>
+</body>
+</html>
