@@ -4,16 +4,17 @@
     
 }
 
-body{
+body,h2{
     display: flex;
     align-items: center;
     justify-content: center;
     background-image:url(/tipcalculator/background.jpg);
+    
 
 }
 h2{
     background-color: rgba(186, 86, 9, 0.608);
-    width:150px;
+    width:200px;
     border-radius: 25%;
 }
 
