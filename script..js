@@ -7,6 +7,10 @@ function get(){
     let tipamnt=document.getElementById('tipamnt');
     let totalamnt=document.getElementById('totalamnt');
     tipamnt.value=amount/100*range;
+    if(tipamnt.value != 0){
     totalamnt.value=parseFloat(amount)+parseFloat(tipamnt.value);
+    }else {
+        totalamnt.value='0';
+    }
 
 }
